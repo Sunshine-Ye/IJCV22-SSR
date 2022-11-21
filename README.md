@@ -8,10 +8,10 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E6%A1%86%E6%9E%B6%E5%9B%BE1_13.png)
 
 **高效联合多维搜索：** 多维搜索空间（深度、宽度、膨胀率和特征空间分辨率）+SSR搜索算法
-![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE2_11.png)
+<!-- ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE2_11.png) -->
 
 **定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
 
 **定性结果：** 可视化分割结果
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE5_2.png)
-
+<!-- ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE6_3.png) -->
