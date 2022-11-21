@@ -5,9 +5,13 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 具体地，我们首先提出了一种新颖的解空间正则化（SSR）损失函数，有效地鼓励超网收敛到其离散网络。然后，我们提出了一个分层渐进解空间收缩策略，进一步提高搜索的效率并减少计算消耗。此外，我们从理论上证明了SSR损失在优化上等效于L0范数正则化，这解释了缩小的离散化差距。综合实验表明，所提搜索方案可以高效地找到最优的分割网络结构，在保持精度相当的同时，以极小的模型尺寸（1 M）获得极快的分割速度（175 FPS）。
 
 **研究动机：** 联合多维搜索可以保留更多上下文语义和空间细节信息，实现更好的分割
-
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E6%A1%86%E6%9E%B6%E5%9B%BE1_13.png)
+
+**高效联合多维搜索：** 多维搜索空间（深度、宽度、膨胀率和特征空间分辨率）+SSR搜索算法
+![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE2_11.png)
 
 **定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
 
 **定性结果：** 可视化分割结果
+![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE5_2.png)
+![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE6_3.png)
