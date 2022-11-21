@@ -11,6 +11,24 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 <!-- ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE2_11.png) -->
 
 **定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
+| Model                                            | Input Size        | Pretrained | Testbed    | FLOPs\(G\) | Params\(M\) | FPS    | Test mIoU\(\\%\)  |
+|--------------------------------------------------|-------------------|------------|------------|------------|-------------|--------|-------------------|
+| ICNet~\\cite\{zhao2018icnet\}                    | 1024$\\times$2048 | ImageNet   | Titan X    | 28\.3      | 26\.5       | 30\.3  | 69\.5             |
+| ERFNet~\\cite\{romera2017erfnet\}                | 512$\\times$1024  | No         | Titan X    | 26         | 2\.1        | 41\.7  | 68\.0             |
+| BiSeNet~\\cite\{yu2018bisenet\}                  | 1024$\\times$2048 | ImageNet   | Titan XP   | 121\.9     | 13\.4       | 105\.8 | 68\.4             |
+| DFANet A$^\\ast$~\\cite\{li2019dfanet\}          | 1024$\\times$1024 | ImageNet   | Titan XP   | 3\.4       | 7\.8        | 52\.6  | 71\.3             |
+| LiteSeg~\\cite\{Emara\_2019\}                    | 512$\\times$1024  | Coarse     | 1080Ti     | 4\.9       | 4\.4        | 88     | 67\.8             |
+| BiSeNetV2$^\\dagger$~\\cite\{yu2020bisenet\}     | 512$\\times$1024  | No         | 2080Ti     | 51\.9      | 27\.7       | 92     | 72\.6             |
+| CAS~\\cite\{zhang2019customizable\}              | 768$\\times$1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.0 | 70\.5             |
+| GAS~\\cite\{lin2020graph\}                       | 768$\\times$1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.4 | 71\.8             |
+| AutoRTNet~\\cite\{sun2021real\}                  | 768$\\times$1536  | ImageNet   | Titan XP   | \-         | 2\.5        | 110    | 72\.2             |
+| FasterSeg~\\cite\{chen2019fasterseg\}            | 1024$\\times$2048 | No         | 1080Ti\+TR | 28\.2      | 4\.4        | 163\.9 | 71\.5             |
+| FasterSeg$^\\dagger$~\\cite\{chen2019fasterseg\} | 1024$\\times$2048 | No         | 2080Ti     | 28\.2      | 4\.4        | 105    | 71\.5             |
+| % Ours\($D\_\{e\}\+S$\)                          | 512$\\times$1024  | No         | 2080Ti     | 11\.8      | 1\.1        | 170    | \\textbf\{72\.3\} |
+| Ours                                             | 512$\\times$1024  | No         | 2080Ti     | 11\.0      | 1\.0        | 175    | \\textbf\{72\.6\} |
+| Ours                                             | 768$\\times$1536  | No         | 2080Ti     | 24\.8      | 1\.0        | 85     | \\textbf\{74\.4\} |
+| Ours$^\\ddagger$                                 | 1024$\\times$2048 | No         | 2080Ti     | 44\.2      | 1\.0        | 53     | \\textbf\{75\.2\} |
+
 
 **定性结果：** 可视化分割结果
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE5_2.png)
