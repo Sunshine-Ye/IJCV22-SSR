@@ -6,7 +6,7 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 
 **研究动机：** 联合多维搜索可以保留更多上下文语义和空间细节信息，实现更好的分割
 
-![image](https://github.com/Sunshine-Ye/IJCV22-SSR/tree/main/assets/主框图框架图1_13.png)
+![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E6%A1%86%E6%9E%B6%E5%9B%BE1_13.png)
 
 **定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
 
