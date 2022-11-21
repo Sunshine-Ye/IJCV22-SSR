@@ -6,6 +6,6 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 
 **研究动机：** 联合多维搜索可以保留更多上下文语义和空间细节信息，实现更好的分割
 
-**定性结果：** 在不同分割数据集上，同其他SOTA方法的比较
+**定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
 
-**定量结果：** 可视化分割结果
+**定性结果：** 可视化分割结果
