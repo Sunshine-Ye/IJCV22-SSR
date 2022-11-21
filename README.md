@@ -7,26 +7,26 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 **研究动机：** 联合多维搜索可以保留更多上下文语义和空间细节信息，实现更好的分割
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E6%A1%86%E6%9E%B6%E5%9B%BE1_13.png)
 
-**高效联合多维搜索：** 多维搜索空间（深度、宽度、膨胀率和特征空间分辨率）+SSR搜索算法
+**高效联合多维搜索：多维搜索空间（深度、宽度、膨胀率和特征空间分辨率）+SSR搜索算法**
 <!-- ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE2_11.png) -->
 
 **定量结果：** 在不同分割数据集上，同其他SOTA方法的比较
-| Model        | Input Size | Pretrained | Testbed    | FLOPs\(G\) | Params\(M\) | FPS    | Test mIoU\(\\%\) |
-|--------------|------------|------------|------------|------------|-------------|--------|------------------|
-| ICNet        | 1024\*2048 | ImageNet   | Titan X    | 28\.3      | 26\.5       | 30\.3  | 69\.5            |
-| ERFNet       | 512\*1024  | No         | Titan X    | 26         | 2\.1        | 41\.7  | 68\.0            |
-| BiSeNet      | 1024\*2048 | ImageNet   | Titan XP   | 121\.9     | 13\.4       | 105\.8 | 68\.4            |
-| DFANet A     | 1024\*1024 | ImageNet   | Titan XP   | 3\.4       | 7\.8        | 52\.6  | 71\.3            |
-| LiteSeg      | 512\*1024  | Coarse     | 1080Ti     | 4\.9       | 4\.4        | 88     | 67\.8            |
-| BiSeNetV2    | 512\*1024  | No         | 2080Ti     | 51\.9      | 27\.7       | 92     | 72\.6            |
-| CAS          | 768\*1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.0 | 70\.5            |
-| GAS          | 768\*1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.4 | 71\.8            |
-| AutoRTNet    | 768\*1536  | ImageNet   | Titan XP   | \-         | 2\.5        | 110    | 72\.2            |
-| FasterSeg    | 1024\*2048 | No         | 1080Ti\+TR | 28\.2      | 4\.4        | 163\.9 | 71\.5            |
-| FasterSeg    | 1024\*2048 | No         | 2080Ti     | 28\.2      | 4\.4        | 105    | 71\.5            |
-| Ours         | 512\*1024  | No         | 2080Ti     | 11\.0      | 1\.0        | 175    | 72\.6            |
-| Ours         | 768\*1536  | No         | 2080Ti     | 24\.8      | 1\.0        | 85     | 74\.4            |
-| Ours         | 1024\*2048 | No         | 2080Ti     | 44\.2      | 1\.0        | 53     | 75\.2            |
+| Model        | Input Size | Pretrained | Testbed    | FLOPs\(G\) | Params\(M\) | FPS    | Test mIoU |
+|--------------|------------|------------|------------|------------|-------------|--------|-----------|
+| ICNet        | 1024\*2048 | ImageNet   | Titan X    | 28\.3      | 26\.5       | 30\.3  | 69\.5     |
+| ERFNet       | 512\*1024  | No         | Titan X    | 26         | 2\.1        | 41\.7  | 68\.0     |
+| BiSeNet      | 1024\*2048 | ImageNet   | Titan XP   | 121\.9     | 13\.4       | 105\.8 | 68\.4     |
+| DFANet A     | 1024\*1024 | ImageNet   | Titan XP   | 3\.4       | 7\.8        | 52\.6  | 71\.3     |
+| LiteSeg      | 512\*1024  | Coarse     | 1080Ti     | 4\.9       | 4\.4        | 88     | 67\.8     |
+| BiSeNetV2    | 512\*1024  | No         | 2080Ti     | 51\.9      | 27\.7       | 92     | 72\.6     |
+| CAS          | 768\*1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.0 | 70\.5     |
+| GAS          | 768\*1536  | ImageNet   | Titan XP   | \-         | \-          | 108\.4 | 71\.8     |
+| AutoRTNet    | 768\*1536  | ImageNet   | Titan XP   | \-         | 2\.5        | 110    | 72\.2     |
+| FasterSeg    | 1024\*2048 | No         | 1080Ti\+TR | 28\.2      | 4\.4        | 163\.9 | 71\.5     |
+| FasterSeg    | 1024\*2048 | No         | 2080Ti     | 28\.2      | 4\.4        | 105    | 71\.5     |
+**| Ours         | 512\*1024  | No         | 2080Ti     | 11\.0      | 1\.0        | 175    | 72\.6     |
+| Ours         | 768\*1536  | No         | 2080Ti     | 24\.8      | 1\.0        | 85     | 74\.4     |
+| Ours         | 1024\*2048 | No         | 2080Ti     | 44\.2      | 1\.0        | 53     | 75\.2     |**
 
 
 **定性结果：** 可视化分割结果
