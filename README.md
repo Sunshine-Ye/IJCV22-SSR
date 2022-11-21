@@ -14,4 +14,4 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 
 **定性结果：** 可视化分割结果
 ![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE5_2.png)
-![image](https://github.com/Sunshine-Ye/IJCV22-SSR/blob/main/assets/%E4%B8%BB%E6%A1%86%E5%9B%BE6_3.png)
+
