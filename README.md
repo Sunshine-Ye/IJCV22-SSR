@@ -24,9 +24,9 @@ Official code of **"Efficient Joint-Dimensional Search with Solution Space Regul
 | AutoRTNet    | 768\*1536  | ImageNet   | Titan XP   | \-         | 2\.5        | 110    | 72\.2     |
 | FasterSeg    | 1024\*2048 | No         | 1080Ti\+TR | 28\.2      | 4\.4        | 163\.9 | 71\.5     |
 | FasterSeg    | 1024\*2048 | No         | 2080Ti     | 28\.2      | 4\.4        | 105    | 71\.5     |
-**| Ours         | 512\*1024  | No         | 2080Ti     | 11\.0      | 1\.0        | 175    | 72\.6     |
+| Ours         | 512\*1024  | No         | 2080Ti     | 11\.0      | 1\.0        | 175    | 72\.6     |
 | Ours         | 768\*1536  | No         | 2080Ti     | 24\.8      | 1\.0        | 85     | 74\.4     |
-| Ours         | 1024\*2048 | No         | 2080Ti     | 44\.2      | 1\.0        | 53     | 75\.2     |**
+| Ours         | 1024\*2048 | No         | 2080Ti     | 44\.2      | 1\.0        | 53     | 75\.2     |
 
 
 **定性结果：** 可视化分割结果
